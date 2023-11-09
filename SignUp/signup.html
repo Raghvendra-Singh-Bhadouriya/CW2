@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="parent">
+        <div id="head">
+            <div id="container">
+                <div id="child1">
+                   <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_a7a56e684dc598f6db412d26903dc66a/chargebee.png" alt="">
+                </div>
+                <div id="child2">
+                   <h2>chargebee</h2>
+                </div>
+            </div>
+            <div id="cont">
+                <p><a href style="color:#012a38">Login ></a></p>
+            </div>
+        </div>
+        <div id="parent2">
+            <h2>Create Your Sandbox Account</h2>
+         <div id="son">
+            <p>Work email</p>
+            <input type="text" id="email" placeholder="(eg) John.m@company.com">
+            <p>Phone Number</p>
+            <input type="number" id="number" placeholder="+91 1234567890">
+            <p>Annual Revenue Range</p>
+            <select id="select">
+                <option value="Please Select">Please Select</option>
+                <option value="0">$0 - $1M</option>
+                <option value="1">$1M - $5M</option>
+                <option value="5">$5M - $10M</option>
+                <option value="10">$10M - $20M</option>
+                <option value="20">$20M - $50M</option>
+                <option value="250">$50M - $250M</option>
+                <option value="250+">More than $250M</option>
+            </select>
+            <h5>Used to provide the best possible experience as you consider adopting Chargebee's products and services.</h5>
+            <div id="tick">
+                <input type="checkbox" id="check">
+                <span>I want to be notified about the awesome happenings* at Chargebee</span>
+            </div>
+            <div id="datahost">
+                <h4>Your data hosting is</h4>
+                <select id="region">
+                    <option>AU Region</option>
+                    <option>US Region</option>
+                    <option>EU Region</option>
+                </select>
+            </div>
+            <button onclick="Click()">Complete Signup</button>
+            <div id="Notice">
+                <p>By signing up, you agree to our <a href>Terms</a> and you acknowledge having read our <a href>Privacy Notice</a></p>
+            </div>
+            <h3>*This includes periodic newsletters, emails about usage tips, billing practices, and other communications. You can opt out anytime within the app.</h3>
+         </div>
+        
+        </div>
+        <div id="images">
+            <div>
+                <img src="https://webstatic.chargebee.com/assets/web/592/images/signup/customers/chargebee-customers.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+   function Click(){
+       alert("You are successful signup")
+   }
+</script>
+</html>

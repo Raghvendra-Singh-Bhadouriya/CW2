@@ -1,0 +1,42 @@
+#prnt{
+    border: 0px solid black;
+    display:flex;
+    justify-content: space-between;
+}
+
+#child1{
+    border:0px solid black;
+    display: flex;
+}
+
+#child1>img{
+    width:12%;
+
+}
+#child1>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#child2{
+    border:0px solid black;
+    display:flex;
+    justify-content: space-around;
+    width:10%;
+}
+#child2>img{
+    border:0px solid black;
+    width:25%;
+    height:40%;
+    margin-top:15% ;
+    margin-left: 20%;
+}
+#child2>#menu>div{
+        width: 25px;
+        height: 2px;
+        background-color: black;
+        margin:6px 0; 
+}
+#menu{
+    border:0px solid black;
+    padding-top: 15%;
+}

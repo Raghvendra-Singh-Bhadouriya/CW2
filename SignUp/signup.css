@@ -1,0 +1,155 @@
+#parent{
+    border:0px solid rgb(139, 127, 127);
+    width:60%;
+    margin:auto;
+    margin-top:10%;
+}
+#head{
+    border:0px solid red;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+#container{
+    border:0px solid green;
+    display:flex;
+}
+#child1{
+    border:0px solid green;
+    width:15%;   
+}
+#child1>img{
+    width:100%;
+}
+#child2{
+    border:0px solid blue;
+    width:25%;
+}
+#child2>h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#cont>p{
+    font-family:Sora, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:18px;
+    font-weight:600;
+}
+#parent2{
+    border:1px solid rgb(139, 127, 127);
+    width:90%;
+    margin:auto;
+    border-radius:10px;
+}
+#parent2>h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:rgb(32,42,56);
+}
+#son{
+    border:0px solid yellow;
+    width:85%;
+    margin:auto;
+    padding-bottom:3%;
+}
+#son>p{
+    font-family:Inter, sans-serif, -apple-system;
+    font-size:16px;
+    font-weight:400;
+    color:#4f6169;
+}
+input{
+    border:1px solid #202022;
+    width:100%;
+    height:40px;
+    border-radius:10px;
+    font-size:100%;
+    padding-left:3%;
+}
+#select{
+    border:1px solid #202022;
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    font-size:15px;
+    padding-left:3%;
+}
+option{
+    font-size:110%;
+}
+::placeholder{
+    font-size: 120%;
+}
+h5{
+    color:#676767;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+}
+#check{
+    border:1px solid black;
+    width:20px;
+    padding-right:90%;
+}
+#tick{
+    display:flex;
+}
+span{
+    padding-top:3%;
+    color:#676767;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+#datahost{
+    display: flex;
+}
+#region{
+    width:25%;
+    padding-left: 2%;
+    font-size:15px;
+    border:1px solid black;
+    border-radius:20px;
+    height:30px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:90%;
+    font-weight:400;
+}
+button{
+    width:100%;
+    font-size:25px;
+    padding-top:3%;
+    padding-bottom:3%;
+    background-color:rgb(186,186,186);
+    color:#ffffff;
+    border-radius: 10px;
+    border:none;
+}
+button:hover{
+    background-color:rgb(32, 22, 22);
+}
+#Notice{
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color:#676767;
+}
+h3{
+    color:#676767;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#images{
+    border:0px solid black;
+    width:90%;
+    height:60px;
+    margin:auto;
+}
+#images>div{
+    border:0px solid red;
+    margin-top:5%;
+}
+#images>div>img{
+    width:100%;
+}
+
